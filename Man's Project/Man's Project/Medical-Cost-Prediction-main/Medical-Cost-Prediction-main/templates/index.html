@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Cost Prediction</title>
+</head>
+<body>
+    <h1>Medical Cost Prediction</h1>
+    <form method="POST" action="/">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex">
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+        </select><br><br>
+
+        <label for="bmi">BMI:</label>
+        <input type="text" id="bmi" name="bmi"><br><br>
+
+        <label for="children">Number of Children:</label>
+        <input type="text" id="children" name="children"><br><br>
+
+        <label for="smoker">Smoker:</label>
+        <select id="smoker" name="smoker">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+
+        <label for="region">Region:</label>
+        <select id="region" name="region">
+            <option value="0">Northwest</option>
+            <option value="1">Northeast</option>
+            <option value="2">Southeast</option>
+            <option value="3">Southwest</option>
+        </select><br><br>
+
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
